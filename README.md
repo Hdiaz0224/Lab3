@@ -37,6 +37,7 @@ SET
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/ea31e095-0914-4ba1-bfeb-6201f0baeb22)
 En las imagenes anteriores se observa como se intercambian mensajes entre los diferentes dispositivos y que se realiza de manera exitosa.
 Se adjunta evidencia del flujo de paquetes y de como se observa que si se capturan y se hace el get y set
+
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/6df89391-b818-4d89-a7a9-4b9d29b8d5f9)
 
 ### Retos:
