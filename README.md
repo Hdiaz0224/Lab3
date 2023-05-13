@@ -79,8 +79,12 @@ https://www.youtube.com/watch?v=bkD4Yxtf-8g
 
 ### Referencias:
 https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst3650/software/release/3se/ipv6/configuration_guide/b_ipv6_3se_3650_cg/b_ipv6_3se_3650_cg_chapter_0111.html
+
 https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book/nm-snmp-cfg-snmp-support.html
+
 https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/snmp/configuration/xe-16/snmp-xe-16-book/nm-snmp-cfg-snmp-support.html
+
 https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/sec_conn_vpnips/configuration/xe-16/sec-sec-for-vpns-w-ipsec-xe-16-book/sec-ipv6-ipv4-gre.html
+
 
 
