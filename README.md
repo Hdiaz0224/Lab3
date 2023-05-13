@@ -1,4 +1,4 @@
-# Laboratorio 23
+# Laboratorio 3
 Ivan Gutierrez, Hector Diaz, Juan Deutsch
 El objetivo de este laboratorio es diseñar e implementar una red empresarial escalable y segura basada en IPv6 e IPv4, utilizando técnicas de subnetting y configurando servicios de red como DHCPv6, SLAAC y ACL. Además, se busca reconocer y configurar protocolos de enrutamiento dinámico como OSPFv2, OSPFv3, EIGRP y EIGRPv6, y configurar servicios informáticos como HTTP, DNS y SNMP para ofrecer contenidos web y gestionar la red. Finalmente, se busca analizar el flujo de datos de los servicios HTTP, DNS y SNMP a través de la red empresarial para optimizar su rendimiento y asegurar su seguridad.
 
