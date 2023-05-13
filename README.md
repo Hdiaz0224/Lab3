@@ -18,6 +18,7 @@ En esta parte en teoría era la misma que el Intranet BOG ya que nos encontrába
 
 ### Analisis:
 Segun lo visto en imagenes presentadas se configuro la red con dos procesos de enrutamiento que fueron EIGRP y OSPF en sus dos versiones de IPv6 e IPv4, iniciando con EIGRP (Enhanced Interior Gateway Routing Protocol) de IPv6 se tiene en cuenta que este, segun los requerimientos se configuro por el lado ESP, que son el ISP_ESP y el R2_ESP de manera que se comunicara el internet de IPv4 con la intranet de Madrid teniendo en cuenta que este tiene una rápida convergencia de rutas, eficiencia de ancho de banda y escalabilidad para una configuracion en caso de que la red sea mas grande ademas que ofrece una autoconfiguración que hace que los dispositivos se descubran automaticamente, siguiendo con la configuracion del OSPF en IPv6 que se realizo por el lado BOG, mas especificamente en ISP_BOG y R1_BOG que de igual manera comunica la red de BOG configurada en IPv6 con el internet que esta configurado con IPv4, con relacion al OSPF que tiene casi las mismas ventajas con relación a EIGRP, con la diferencia de en OSPF la red se segmenta de mejor manera siendo asi que soporta areas de multiple enrutamiento y autenticación de mensajes, siguiendo con la configuracion de enrutamiento en IPv4, se tiene encuenta que en la zona de Internet se tiene que comunicar los protocolos de IPv6 con los de IPv4, para esto se configuro un tunneling para comunicar estas dos redes, en los routers de frontera de BOG y ESP, ya mas puntualmente dentro de IPv4 se configuro tambien los protocolos de EIGRP y OSPF redistribuyendo estos mismos dentro de la red
+
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/f2f6d9e4-beb3-4b6e-98b1-85a1413437b8)
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/d62492aa-9988-42fe-90c9-cc6ec80eb078)
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/eb26d0d9-90d7-4911-989f-673a63c58500)
@@ -26,6 +27,7 @@ Segun lo visto en imagenes presentadas se configuro la red con dos procesos de e
 
 
 Con relación a las tablas de enrutamiento de IPv6 e IPv4, como se ve en la imagen, inciando con BOG, usando el comando show ipv6 route se puede ver que tipo de enrutamiento hay presente y si esta conectado o si esta local, en cuando al enrutamiento que nos da noscomunica que esta usando el OSPF para comunicarse en cuando a IPv6 mientras que si usamos el comando de show ip route nos muestra la tabla de enrutamiento en cuanto IPv4, por lo que este nos manda que se esta comunicando principalmente con EIGRP pese que se espera que se comunique con OSPF, aun asi se comunica entre los routers de IPv4 por medio de EIGRP, siguiendo con ESP en cuanto a IPv6 se nos muestra que en principio no tiene un enrutamiento que se pueda ver pero al ingresar el comando show ipv6 eigrp neighbours se nos muestra que se esta comunicando por medio de EIGRP dentro de la red de IPv6, mientras que en IPv4 simplemente se nos muestra que esta efectivamente conectado.
+
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/f3b22e74-7d41-432b-9b6b-f327773d4af1)
 
 
