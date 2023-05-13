@@ -40,6 +40,10 @@ Se adjunta evidencia del flujo de paquetes y de como se observa que si se captur
 
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/6df89391-b818-4d89-a7a9-4b9d29b8d5f9)
 
+Valide la conectividad entre los equipos PCs de cada Intranet, y los ACLs configurados en ambas Intranet para permitir y denegar el acceso al contenido de la página web alojada en el servidor Web del DMZ (punto 4.4 del LA#2). Anexe evidencias de la verificación realizada.
+![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/2f1fc50c-7b5b-4b25-aa33-11512b9ea9e1)
+Al ser con http bloquea el acceso
+
 ### Retos:
 En este laboratorio los retos que nos encontramos fueron muy dificiles pero a la vez interesantes de resolver, ya que, teniamos que modificar el laboratorio # 2 en el cual se nos presentaron muchos retos. Asimismo, otro reto mientras desarrollabamos el laboratorio fue el manejo del tiempo ya que teniamos que realizar este laboratorio mientras desarrollabamos el proyecto.
 
