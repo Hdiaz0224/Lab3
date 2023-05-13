@@ -28,8 +28,14 @@ Para proporcionar comunicación segura entre Intranets, se deben configurar serv
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/08820fa6-68bf-474b-a613-b78fdd5fd91d)
 Como se evidencia en las anteriores imagenes, se adjunta evidencia de como se validaron las configuraciones con respecto al item 1b cabe recalcar que la validacion se realiza usando el comando show version para demostrar que si esta configurado de la manera correcta
 
+Explique el flujo bidireccional de mensajes SNMP intercambiados entre los dispositivos gestionados desde las diferentes Intranets al utilizar capacidades “get” y “set” sobre una variable MIB de su elección. Justifique su análisis utilizando capturas con el simulador y los filtros de paquetes de Cisco Packet Tracer
 
-
+![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/b1c2f2aa-fae4-401f-9d33-90d90f5ba3ac)
+GET
+![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/5d8d21c5-1d68-419c-89c9-d457132078bc)
+SET
+![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/ea31e095-0914-4ba1-bfeb-6201f0baeb22)
+En las imagenes anteriores se observa como se intercambian mensajes entre los diferentes dispositivos y que se realiza de manera exitosa.
 ### Retos:
 En este laboratorio los retos que nos encontramos fueron muy dificiles pero a la vez interesantes de resolver, ya que, teniamos que modificar el laboratorio # 2 en el cual se nos presentaron muchos retos. Asimismo, otro reto mientras desarrollabamos el laboratorio fue el manejo del tiempo ya que teniamos que realizar este laboratorio mientras desarrollabamos el proyecto.
 
