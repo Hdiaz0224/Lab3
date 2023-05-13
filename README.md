@@ -36,8 +36,21 @@ GET
 SET
 ![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/ea31e095-0914-4ba1-bfeb-6201f0baeb22)
 En las imagenes anteriores se observa como se intercambian mensajes entre los diferentes dispositivos y que se realiza de manera exitosa.
+Se adjunta evidencia del flujo de paquetes y de como se observa que si se capturan y se hace el get y set
+![image](https://github.com/Hdiaz0224/Lab3/assets/93561095/6df89391-b818-4d89-a7a9-4b9d29b8d5f9)
+
 ### Retos:
 En este laboratorio los retos que nos encontramos fueron muy dificiles pero a la vez interesantes de resolver, ya que, teniamos que modificar el laboratorio # 2 en el cual se nos presentaron muchos retos. Asimismo, otro reto mientras desarrollabamos el laboratorio fue el manejo del tiempo ya que teniamos que realizar este laboratorio mientras desarrollabamos el proyecto.
 
 ### Conclusiones:
-Para concluir aprendimos la diferencia en las configuraciones e implementacions de IPV6 e IPV4 y sus diferentes protocolos. Asi como, la redistribucion y el tunneling y la parte mas importante el conectar redes ipv4 con ipv6.
+
+### Video:
+https://www.youtube.com/watch?v=bkD4Yxtf-8g
+
+### Configuraciones:
+[Configuraciones LAB 3.txt](https://github.com/Hdiaz0224/Lab3/files/11470385/Configuraciones.LAB.3.txt)
+
+### Bitacora
+[bitacora de reuniones grupo 6.pdf](https://github.com/Hdiaz0224/Lab3/files/11470387/bitacora.de.reuniones.grupo.6.pdf)
+
+
